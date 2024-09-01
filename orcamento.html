@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento - MotorTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="Images/logo/Logo.png" alt="Logo MotorTech" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contato">
+        <h2>Orçamento</h2>
+        <form action="enviar_formulario.php" method="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="servico">Serviço:</label>
+                            <input type="text" class="form-control" id="servico" name="servico" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Detalhes do serviço:</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Solicitar</button>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Formas de pagamento</h3>
+                        <div class="payment-method">
+                            <img src="Images/pagamentos/pagamentos1.png" alt="Formas de Pagamento" class="payment-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MotorTech. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
