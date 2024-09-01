@@ -529,6 +529,9 @@ button[type="submit"]:hover {
     .funcionario img {
         margin: 0 auto 1rem;
     }
+    .service-content {
+        position: relative;
+    }
 }
 
 .postagem {
