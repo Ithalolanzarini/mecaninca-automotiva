@@ -71,14 +71,14 @@ h2 {
 
 .payment-method {
     display: flex;
-    justify-content: center; /* Alinha a imagem horizontalmente ao centro */
-    margin-top: 20px; /* Espaço superior para separar a imagem do título */
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .payment-icon {
-    width: 100%; /* Ajuste conforme necessário para a responsividade */
-    max-width: 400px; /* Ajuste o tamanho máximo da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
 }
 
 .servicos-container {
